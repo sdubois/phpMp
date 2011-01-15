@@ -11,7 +11,7 @@ if(isset($_COOKIE["phpMp_password"])) {
 }
 
 #extract($_GET);
-#extract($HTTP_POST_VARS);
+#extract($_POST);
 
 extract($_GET);
 extract($_POST);

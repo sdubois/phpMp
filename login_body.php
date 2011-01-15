@@ -8,7 +8,7 @@ $search = "";
 $arg = "";
 $sort = $default_sort;
 EXTRACT($_GET);
-EXTRACT($HTTP_POST_VARS);
+EXTRACT($_POST);
 $dir = decodeHTML($dir);
 $sort_array = split(",",$sort);
 $fp = fsockopen($host,$port,$errno,$errstr,10);
